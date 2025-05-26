@@ -6,6 +6,10 @@ from wordcloud import WordCloud, STOPWORDS
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
+import nltk
+
+nltk.download('stopwords')
+nltk.download('punkt')
 
 
 class Modelo:
